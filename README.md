@@ -1,5 +1,5 @@
-# Yumi Backend
-The backend portion of the interview test for Yumi.
+# Don.gg Backend
+The backend portion for my personal website
 
 ## Set up
 Project set up documented on MacOS. Please contact the Donald Morton or update the documentation if set up varies by machine.
@@ -29,9 +29,9 @@ Make sure the `.env` file is located in `./src`
 These commands operate under the assumption you have already created a MySQL user on your local machine. [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql) has a great tutorial on how to do this.
 ```sh
 mysql -u $USER -p
-create database yummy_development;
+create database don_dev;
 exit;
-mysql -u $USER -p --database=yummy_development < yummy_development.sql.dump
+mysql -u $USER -p --database=don_dev < don_dev.sql.dump
 ```
 
 ### Run API in development mode locally
